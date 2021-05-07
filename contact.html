@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil/contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="raw">
+                <div class="text-center">
+                    <span class="nom margin-md-left col-md-2 col-sm-2">Mikael Lewi
+                        <img class="monLogo mb-2 col-1" src="./images/logo_mikael_lewi.png" alt="logo de Mikaël Lewi">
+                    </span>
+                    
+                    <!-- <div class="visible-md"></div> -->
+                    <a class="mt-md-2 mb-md-2" href="./index.html">Accueil</a>
+                    <a class="mt-md-2 mb-md-2" href="./peintures.html">Peintures</a>
+                    <a class="mt-md-2 mb-md-2 " href="./dessins_animes.html">Animations</a>
+                    <a class="mt-md-2 mb-md-2" href="./jeux_video.html">jeux vidéos</a>
+                    <a class="mt-md-2 mb-md-2" href="./lens_snapchat.html">Lens Snapchat</a>
+                    <a class="mt-md-2 mb-md-2" href="./contact.html">Contact </a>
+                </div>
+                <!-- <img class="hamburger mg-4 mt-1" src="./images/hamburgerheader-810x810.jpg" alt="hamburger"> -->
+            </div>
+           </div>
+        </div>
+        
+        <img class="banniere col-12 " src="./images/mountain0003.jpg" alt="responsive-image">
+
+    </header>
+    <main>
+
+        <form class=" formulaire container text-center p-3 " action="contact">
+
+            <div class="row">
+
+                <div>
+                    <div class="p-2">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" value="nom">
+                    </div>
+                    <div class="p-2">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prénom" id="prenom" value="prenom">
+                    </div>
+                    <div class="p-2">
+                        <label for="mail">Mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="telephone">téléphone</label>
+                        <input type="tel" name="téléphone" id="téléphone">
+                    </div>
+                    <div class="p-2">
+                        <label for="message">Votre message</label>
+
+                        <textarea name="message" id="message" cols="10" rows="5"></textarea>
+                    </div>
+                    <input type="submit" value="Soumettre">
+                </div>
+            </div>
+
+        </form>
+
+    </main>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="text-center p-5">©Mikaël Lewi-Tous droits réservés
+                <img class="reseaux-sociaux1" src="./images/logo_facebook_alpha.png" alt="logo de facebook">
+                <img class="reseaux-sociaux2 text-center" src="./images/logo_insta_alpha.png" alt="logo d'instagram">
+                <img class="reseaux-sociaux3 " src="./images/twitter-bird-light-bgs_alpha_couleur_noire.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="js/portefolio.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,119 @@
+.banniere {
+    width: 100%;
+}
+
+.monLogo {
+    width: 3%;
+    margin-right: 85px;
+}
+
+#titre {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: rgb(19, 19, 85);
+    color: #ffff;
+}
+
+/*je redimensionne mes images et mets un padding en haut, a droite et à gauche*/
+
+.gratte-ciel {
+    height: 388px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.jardin {
+    width: 285px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.rue {
+    width: 291px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(./../typographie/Quicksand-Bold.ttf);
+}
+
+body {
+    font-family: "Quicksand";
+    font-size: 14px;
+}
+
+#titre {
+    margin-bottom: 25px;
+    margin-top: -50px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.hamburger {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.reseaux-sociaux1 {
+    width: 70px;
+}
+
+.reseaux-sociaux2 {
+    width: 70px;
+}
+
+.reseaux-sociaux3 {
+    width: 70px;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nom {
+    font-size: 2em;
+}
+
+p {
+    margin-top: 3%;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/* taille du formulaire, je mets une bordure, une taille et une marge au dessus et en dessous */
+
+.formulaire {
+    border: solid 2px black;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* taille des vidéos, marge droite et au dessus */
+
+.video {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 15px;
+}
